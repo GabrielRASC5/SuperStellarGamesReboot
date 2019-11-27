@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+h1,h2{
+    font-family: "Coda", cursive;
+    color: white;
+}
+
+header{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.metroid{
+    background-image:  url("https://www.konsolenkost.de/nintendo-snes/image/1029480/snes-super-metroid-super-classic-serie-neu.jpg");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: white 2px solid;
+}
+
+.metroid:hover{
+    background-color: red;
+}
+
+#super:hover{
+    background-color: red;
+}
+
+.starFox{
+    background-image: url("https://media.giphy.com/media/bfzPmcTxEbt7i/giphy.gif");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: white 2px solid;
+}
+
+.starFox:hover{
+    background-color: red;
+}
+
+.black_Ops{
+    background-image: url("https://cdn.gamerant.com/wp-content/uploads/black-ops-4-zombies.jpg.optimal.jpg");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: white 2px solid;
+}
+
+.black_Ops:hover{
+    background-color: red;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+@media(max-width: 1030px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 530px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+footer{
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

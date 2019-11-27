@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+h1,h2{
+    font-family: "Coda", cursive;
+    color: white;
+}
+
+header{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.tournament{
+    background-image:  url("https://i.ytimg.com/vi/baixpNzE9es/maxresdefault.jpg");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: white 2px solid;
+}
+
+
+
+footer{
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

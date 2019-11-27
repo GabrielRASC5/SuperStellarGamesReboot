@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+h1,h2,h3{
+    font-family: "Coda", cursive;
+    color: white;
+}
+
+.shop{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header{
+    margin-left: 50%;
+    margin-right: 50%;
+}
